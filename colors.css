@@ -1,0 +1,94 @@
+/***************LETRAS*****************/
+
+/**************COLORES****************/
+.colorText{
+    color: #2c2654;
+}
+.whiteText{
+    color: #fff;
+}
+.blackText{
+    color: #000;
+}
+.colorTextLittle{
+    color: #454549;
+}
+.colorTextMag{
+    color: #b9007e;
+}
+.colorBlue{
+    color: #2c2654;
+}
+.colorLine{
+    color: #d1d1d4
+}
+.grayText{
+    color: #909094;
+}
+.colorPink{
+    color: #f33162;
+}
+.colorOrange{
+    color: #fcab53;
+}
+.colorGreen{
+    color:#38be62;
+}
+.colorGold{
+    color: #ad8a47;
+}
+.colorLightBlue{
+    color:#39bbb1;
+}
+.colorLink{
+    color: #333333;
+}
+/********BACKGROUND***************/
+.whiteBack{
+    background-color: #fff;
+}
+.bodyBack{
+    background-color: #f6f7fb;
+}
+.magBackLight{
+    background-color: rgba(255,218,243,0.4);
+}
+.magBack{
+    background-color: #b9007e;
+}
+.orangeBack{
+    background-color: #f4b10b;
+}
+.orangeLightBack{
+    background-color: #fef6e2;
+}
+.lilaBack{
+    background-color: #817bd0;
+}
+.pinkBack{
+    background-color: #f33162;
+}
+.lightBlueIcon{
+    background-color: #39bbb1;
+}
+.grayBack{
+    background-color: #909094;
+}
+.grayLine{
+    color: #eaeaec;
+}
+.colorBackTip{
+    background-color: #f7f6f8;
+}
+.lightBlueTable{
+    background-color: rgba(57,187,177,0.12);
+}
+.pinkBackTable{
+    background-color: rgba(185,0,126,0.08);
+}
+.blueBack{
+    background-color: #2c2654;
+}
+.goldBack{
+    background-color: #ad8a47;
+}

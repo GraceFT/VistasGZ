@@ -1,0 +1,342 @@
+/*{
+    outline: 1px solid rgba(0,255,0,0.5);
+}**/
+
+h3,h4{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Lato';
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+p{
+    margin: 0px;
+}
+
+
+.ui-g{
+    display: flex;
+}
+.divided{
+    margin-bottom: 16px;
+}
+
+.advice{
+    padding: 16px 80px;
+}
+.advice p{
+    font-weight: bold;
+}
+.numberConsultant{
+    padding: 24px 20px;
+    width: 35%;
+    height: fit-content;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tableConsultant{
+    padding: 24px 20px;
+    width: 75%;
+    margin-left: 30px;
+}
+
+/************table**************/
+table tr td{
+    text-align: center;
+    border: 1px solid #fff;
+}
+table thead tr td {
+    padding: 12px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+table tbody tr td{
+    font-size: 12px;
+    padding: 12px 0px;
+    background-color: #effaf9;
+    width: 113px;
+    font-weight: bold;
+}
+table tbody tr td:first-child {
+    
+    background-color: #cfefec;
+}
+hr{
+    border: 0.5px solid #eaeaec;
+    margin: 0px;
+}
+/************table**************/
+
+.listaConsultant{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-around;
+}
+.listaConsultant li{
+    padding: 0px 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.listaConsultant span{
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.listaConsultant li p{
+    margin-top: 4px;
+}
+
+/*******************LISTAS********************/
+.listContent{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.listContent li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /*añadir el ancho para dar el espaciado entre elementos*/
+    margin-bottom: 16px;
+}
+.listContent li:last-child{
+    margin-bottom: 0px;
+}
+.listContent p{
+    margin: 0px;
+}
+.listContent span{
+    font-weight: bold;
+}
+.listContent h3{
+    font-size: 18px;
+
+}
+.listSwitch{
+    margin-top: 32px;
+    border: 1px solid #EAEAEC;
+    border-radius: 4px;
+    padding: 16px 12px;
+}
+.listSwitch li{
+    margin-bottom: 0px;
+}
+/**************COBRANZA**************/
+.tableCobranza thead tr td{
+    color:#38be62;
+    font-size: 14px;
+}
+.tableCobranza tbody tr td{
+    width: 176px;
+    background-color: #effaf2;
+    font-size: 14px;
+}
+.tableCobranza tbody tr td:first-child{
+    background-color: #cfefd9;
+    font-size: 16px;
+}
+
+
+
+
+/***************SWICTHER****************/
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EAEAEC;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 1.5px;
+    bottom: 1.7px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(15, 19, 24, 0.12);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #000;
+  }
+  input:checked + .bright{
+    background-color: #38be62;
+  }
+ /* input:focus + .slider {
+    box-shadow: 0 0 1px #000;
+  }
+ */ 
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 100%;
+  }
+/******************venta y pedidos********************/
+.tableSale thead tr td{
+    color: #fcab53;
+    font-size: 14px;
+}
+.tableSale tbody tr td:first-child{
+    width: 138px;
+    background-color: #fcecc4;
+}
+.tableSale tbody tr td{
+    font-size: 12px;
+    width: 144px;
+    background-color: #fef9eb;
+}
+.pillsSale{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 26px 0px 4px ;
+}
+.pillsSale li{
+    border: 1px solid #000;
+    padding: 8px 16px;
+    border-radius:100px;
+    margin-right: 8px;
+}
+.pillsSale li.active{
+    background-color: #000;
+    color: #fff;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.sections{
+    display: flex;
+    overflow: auto;
+    margin: 30px 0px 35px;
+}
+.sections li{
+    background: #F8F9FD;
+    border: 1px solid #2C2654;
+    box-sizing: border-box;
+    padding: 12px 56px;
+    color: #2C2654;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right:10px;
+}
+.sections li.active{
+    background-color: #b9007e;
+    color: #fff;
+    border: 1px solid #b9007e;
+}
+.venta{
+    display: flex;
+}
+.sellCard{
+    border-radius: 4px;
+    width: 370px;
+    height: fit-content;
+ }
+ .firstSell, .secondSell{
+    padding:20px 16px;
+ }
+ .secondSell{
+     margin-top: 26px;
+ }
+ 
+ .adviceBig{
+     border-radius: 4px;
+     padding: 18px 12px;
+     width: 50%;
+ }
+ .adviceBig h4:first-child{
+     margin-bottom: 4px;
+ }
+ .sectionInfo{
+     display: flex;
+     align-content: center;
+ }
+ .meta{
+     padding: 0px 16px;
+ }
+ .meta span, .meta p{
+     font-size: 14px;
+ }
+ .meta p{
+     font-weight: bold;
+ }
+ .meta li:first-child{
+     margin-bottom:12px;
+ }
+ .promedy li{
+     margin-bottom: 0px;
+ }
+ /*****segundo card **/
+ .activity{
+     margin: 0px 16px;
+     width: 370px;
+     padding: 20px 16px;
+     height: fit-content;
+ }
+ hr{
+     border: 0.5px solid #eaeaec;
+     margin: 16px 0px;
+ }
+ /***gain****/
+ .gain{
+     margin: 0px 16px;
+     width: 72%;
+     padding: 20px 16px;
+     display: flex;
+ }
+ 
+ .gain .leftSideContainer, .gain .rightSideContainer{
+     width: 50%;
+ }
+ /******tercero card **/
+ .capital{
+     margin: 0px 16px;
+     width: 370px;
+     padding: 20px 16px;
+     height: fit-content;
+ }
+ .headerInfo{
+     margin-bottom: 20px;
+ }
+ /**/
+ .pedidosValor {
+     margin-top:24px;
+ }
